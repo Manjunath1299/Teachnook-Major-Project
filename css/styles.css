@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color: #945731b4;
+  font-family: "Oxygen", sans-serif;
+  color: white;
+}
+#header-nav {
+  background-color: rgb(150, 148, 210);
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url("../images/dosa.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 5px;
+}
+.navbar-header button.navbar-toggler,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  color: #232421;
+  padding-top: 30px;
+  padding-bottom: 0%;
+  margin-top: 35px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus,
+.navbar-brand a:active {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggler {
+clear:both;
+} 
+.nav-link {
+  color: #61122f;
+  font-size: 1.1em;
+  font-weight: bolder;
+  text-align: center;
+}
+.container .jumbotron {
+  margin-top: 5%;
+  padding: 0;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px #222;
+}
+#menu-tile,
+#specials-tile,
+#map-tile
+ {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #3f0c1f;
+  text-decoration: none;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover,
+.img-menu:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url("../images/shopping-menus-design-cover-template-vector-02.jpg")
+    no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url("../images/specials.jpg") no-repeat;
+  background-position: center;
+  background-size: 100% 99%;
+}
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 1.6em;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .navbar-header h1 {
+    margin-top: 0;
+    padding-top: 0%;
+    font-size: 1.1em;
+  }
+  .navbar-brand {
+    padding-left: 30px;
+  }
+  .nav-link {
+    color: #61122f;
+    font-size: 0.9em;
+    font-weight: bolder;
+    text-align: center;
+  }
+  #menu-tile,
+  #specials-tile,
+  #map-tile {
+    width: 350px;
+    margin: 0 auto 15px;
+  }
+  .card-footer section{
+    text-align:center;
+  }
+  .social{
+      margin-top: 0px !important;
+  }
+  hr{
+      width: 50%;
+  }
+}
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  float: left;
+  padding-right: 10px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+.menu-img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-footer {
+  text-align:justify ;  background-color: #363636;
+  font-weight: 500;
+}
+.card-footer span{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.social{
+    text-align: center;
+}
+.social>p{
+    font-size: 1.3em;
+}
+#hours:hover,
+#address1:hover,
+#testimonials:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.social:hover {
+  box-shadow: 0 1px 5px 1px #484848;
+}
+.social > .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+hr{
+    background-color: white;
+}
+.social > .fa:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-phone {
+  background: #3b5998;
+  color: white;
+}
+@media (max-width: 479px) {
+  #menu-tile,
+  #specials-tile,
+  #map-tile{
+    width: 250px;
+    margin: 0 auto 15px;
+  }
+}
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-header h1 {
+    font-size: 1.1em;
+    padding-top: 10px;
+  }
+  #logo-img {
+    background: url("../images/dosa-md.png");
+    width: 110px;
+    height: 110px;
+  }
+  .nav-link {
+    color: #61122f;
+    font-size: 0.8em;
+    font-weight: bolder;
+    text-align: center;
+  }
+}

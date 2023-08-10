@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OYL</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-md">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="logo-link float-left d-none d-md-block d-lg-block">
+                        <div id="logo-img" alt="Logo"></div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>OYL</h1></a>
+                    </div>
+                    <button class="navbar-toggler navbar-light ml-auto navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon " ></span>
+                      </button>
+            </div>  
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto"id="nav-list">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu-categories"><span class="fa fa-shopping-bag d-none d-md-inline d-lg-inline"></span><br class="d-sm-none d-md-block"> Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><span class="fa fa-info-circle d-none d-md-inline d-lg-inline"></span><br class="d-sm-none d-md-block">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cart" ><span class="fa fa-shopping-cart d-md-inline d-lg-inline"></span><br class="d-sm-none d-md-block">Cart</a>
+                  </li>    
+                </ul>
+        </div>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="jumbotron">
+        <img class="img-fluid " src="images/jumbotron_1200.jpg" alt="">
+      </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-sm-12 col-12">
+        <a href="#menu-categories"><div id="menu-tile"><span>Menu</span></div></a>
+      </div>
+      
+      <div class="col-md-12 col-lg-6 col-sm-12 col-12">
+        <a href="https://goo.gl/maps/KzsxugWYpWxENZWe6" target="_blank"><div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.567758721188!2d78.45516391472421!3d17.43251910609068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90b6a1092f99%3A0xe1d0f878fb579872!2sITC%20Kakatiya%2C%20a%20Luxury%20Collection%20Hotel%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1593845924798!5m2!1sen!2sin" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><span>Map</span></div></a>
+      </div>
+    </div>
+      </div>
+  <section id="menu-categories">
+    <div class="container">
+      <h2 class="text-center mb-5 mt-5">Menu Categories</h2>
+  <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#men-jeans">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/jeans.jpg" alt="Lunch">
+              <span>Jeans</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#women-jeans">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/womenjeans.jpg" alt="Lunch">
+              <span>Women Jeans</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#men-tshirt">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/tshirt.jpg" alt="Lunch">
+              <span>T-shirt</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#women-tshirt">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/womentshirt.jpg" alt="Lunch">
+              <span>T-shirt(Women)</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#men-shirt">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/shirt.jpg" alt="Lunch">
+              <span>Shirt</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#men-shoes">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/shoes.jpg" alt="Lunch">
+              <span>Shoes</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <a href="#women-shoes">
+            <div class="category-tile">
+              <img width="200" height="200" src="images/womenshoes.jpg" alt="Lunch">
+              <span>Shoes(Women)</span>
+            </div>
+          </a>
+        </div>
+        
+  </div>
+    </div>
+  </section>
+<section  id="men-jeans">
+  <div class="container">
+  <h2 class="text-center mb-5 mt-5">Men Jeans</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/kidsjeans.jpg" alt="Item">
+            
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Jeans </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 32 size ,soon will other size </p>
+          <p><button id="kd" value="kids jeans - 800" onclick="clickhere(0)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/mencottonjeans.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Cotton Jeans</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 36 size ,soon will other size </p>
+          <p><button id="mcj" value="Men Cotton Jeans - 1000" onclick="clickhere(1)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/premiumjeans.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Jeans</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 36 size ,soon will other size </p>
+          <p><button id="pj" value="Men premium jeans - 1500" onclick="clickhere(2)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+</div>
+</section>
+<section id="women-jeans"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Women Jeans</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/femalekidjeans.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Jeans </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 32 size ,soon will add other size </p>
+          <p><button id="fkj" value="Female Kids jeans - 800" onclick="clickhere(3)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/womencottonjeans.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Cotton Jeans</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 36 size ,soon will add other size </p>
+          <p><button id="wcj" value="Women Cotton jeans - 1000" onclick="clickhere(4)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/womenjeans1.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Jeans</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 36 size ,soon will add other size </p>
+          <p><button id="wj" value="Women premium jeans - 1500" onclick="clickhere(5)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+</div></section>
+<section id="men-tshirt"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Men T-Shirt</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/maletshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Kids Tshirt </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 30 size ,soon will add other size </p>
+          <p><button id="mst" value="Men kids T Shirt - 800" onclick="clickhere(6)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/mencottontshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Men Cotton Tshirt</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 32 size ,soon will add other size </p>
+          <p><button id="mct" value="Men Cotton T-Shirt - 1000" onclick="clickhere(7)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/premiummentshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Premium Men T-Shirt</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 34 size ,soon will add other size </p>
+          <p><button id="mpt" value="Men Premium TShirt - 1500" onclick="clickhere(8)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+</div>
+</section>
+<section id="women-tshirt"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Women Tshirt</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/kidswomentshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Kids Tshirt </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 32 size ,soon will add other size </p>
+          <p><button id="kwt" value="Kids Female TShirt - 800" onclick="clickhere(9)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/womentshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Women Cotton Tshirt</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 36 size ,soon will add  other size </p>
+          <p><button id="wt" value="Women TShirt - 1500" onclick="clickhere(10)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/premiumwomentshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Premium Women T-shirt</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 36 size ,soon will add other size </p>
+          <p><button id="wpt" value="Women Premium TShirt - 1500" onclick="clickhere(11)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+</div>
+</section>
+<section id="men-shirt"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Men Shirt</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/kidsshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Kids Shirt </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 32 size ,soon will add other size </p>
+          <p><button id="kms" value="Kids Men Shirt - 800" onclick="clickhere(12)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/mencasualshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Men Casual shirt</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 36 size ,soon will add other size </p>
+          <p><button id="mcs" value="Men Cotton Shirt - 1000" onclick="clickhere(13)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/menprintshirt.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Mens Cotton Print Shirt</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 36 size ,soon will add other size </p>
+          <p><button id="mps" value="men Premium Shirt - 1500" onclick="clickhere(14)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div> 
+</div>
+</section>
+<section id="men-shoes"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Men Shoes</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/kidsmenshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Kids Shoes </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 6 size ,soon will add other size </p>
+          <p><button id="mksm" value="Kids Shoes-800" onclick="clickhere(15)"> Add To Cart</button></p>
+          
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/menscasualshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Men Causal Shoes</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 8 size ,soon will add other size </p>
+          <p><button id="mcsm" value="Men Casual Shoes-1000" onclick="clickhere(16)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/mensportshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Men Sport Shoes</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 8 size ,soon will add other size </p>
+          <p><button id="mss" value="Men Sport Shoes-1500" onclick="clickhere(17)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+</div>
+</section>
+<section id="women-shoes"><div class="container">
+  <h2 class="text-center mb-5 mt-5">Women Shoes</h2>
+  <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo text-center">
+            <div>800 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/kidsfemaleshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Kids Shoes </h3>
+          <p class="menu-item-details"> Blue Men Jeans which is suitable for kids  </p>
+          <p>Available only in 5 size ,soon will add other size </p>
+          <p><button id="fksf" value="Kids Female Shoes -800" onclick="clickhere(18)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1000 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/womencasualshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Women Casual Shoes</h3>
+          <p class="menu-item-details">Cotton Jeans which is suitable for adults </p>
+          <p>Available only in 7 size ,soon will add other size </p>
+          <p><button id="wcsw" value="Women Casual Shoes -1000" onclick="clickhere(19)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div>
+    <!-- Add after every 2nd menu-item-tile -->
+    <div class="clearfix d-md-block d-lg-block d-sm-none"></div>
+
+    <div class="menu-item-tile col-lg-10">
+      <div class="row">
+        <div class="col-sm-5 col-9">
+          <div class="menu-item-photo">
+            <div>1500 INR</div>
+            <img class="img-fluid menu-img" width="250" height="150" src="images/womensportshoes.jpg" alt="Item">
+          </div>
+          <!-- <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div> -->
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Women Sport Shoes</h3>
+          <p class="menu-item-details"> Premium Quality jeans for adults</p>
+          <p>Available only in 7 size ,soon will add other size </p>
+          <p><button id="wssw" value="Women Sports Shoes - 1500" onclick="clickhere(20)"> Add To Cart</button></p>
+        </div>
+      </div>
+      <hr class="d-block d-md-none">
+    </div> 
+</div>
+</section>
+<section id="cart">
+  <div class="container">
+    <h2 class="text-center mb-5 mt-5">Cart Items</h2>
+    <div id="cartitems"></div>
+  </div>
+</section>
+      <footer class="card-footer">
+        <div class="container">
+          <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="address1" class="col-sm-4">
+          <span>Address:</span><br>
+          <address>7105 Reisterstown Road<br>
+            Baltimore, MD 21215
+          </address> 
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="testimonials" class="col-sm-4"><em>
+          <p>"The best Stylish clothing store I've been to! And that's saying a lot, since I've been to many!"</p>
+          
+          <hr class="d-block d-md-none">
+        </section></em>
+      <section class="social col-12 mt-5">
+        <p><strong> Connect With Us</strong></p>
+        <a href="https://www.facebook.com/tigc2010/" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/theindiangarageco/?utm_medium=copy_link" target="_blank" class="fa fa-instagram"></a>
+        <a href="tel:9705203618" class="fa fa-phone"></a>
+      </section>
+      </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html> 
